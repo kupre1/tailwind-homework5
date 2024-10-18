@@ -12,7 +12,7 @@ const FAQBar = () => {
       {FAQLinks.map((nav, index) => (
         <div
           key={nav.id}
-          className={`kp:max-w-[620px] flex h-52 w-full max-w-[500px] items-center justify-between lg:h-36 ${index === 7 ? "" : "border-b border-red-600"} md:${
+          className={`kp:max-w-[620px] flex h-52 w-full max-w-[500px] items-center justify-between lg:h-36 ${
             index === 3 || index === 7 ? "" : "border-b border-red-600"
           }`}
         >
