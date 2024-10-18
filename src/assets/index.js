@@ -1,4 +1,4 @@
-import logo from "./logo.png";
+import logo from "./Logo.png";
 import search from "./icon.png";
 import bell from "./search.png";
 
