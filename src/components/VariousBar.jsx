@@ -4,25 +4,25 @@ import { variousLinks } from "../constants/various";
 const VariousBar = () => {
   return (
     <>
-      <nav className="flex flex-wrap xl:gap-[79px]  w-full mt-20 lg:gap-[22px]">
+      <nav className="mt-20 flex w-full flex-wrap justify-center xs:gap-5 lg:gap-[22px] xl:gap-[79px]">
         {variousLinks.map((nav) => (
           <div
             key={nav.id}
-            className="flex flex-col  gap-4 bg-gradient-to-t from-[#0F0F0F] to-[#0F0F0F] py-14 px-10 lg:w-[440px] border border-[#201a1a] rounded-xl md:w-[400px] "
+            className="flex min-w-[361px] flex-col gap-4 rounded-xl border border-[#201a1a] bg-gradient-to-t from-[#0F0F0F] to-[#0F0F0F] px-10 py-14 ss:w-[400px] xl:w-[440px]"
           >
             <div>
-              <div className="flex items-center   gap-4 ">
+              <div className="flex items-center gap-4">
                 <img
                   src={nav.img}
                   alt="img"
-                  className="bg-black px-[24px] py-[18px] rounded-md cursor-pointer"
+                  className="cursor-pointer rounded-md bg-black px-[24px] py-[18px]"
                 />
-                <p className="text-[24px] text-white leading-[36px] ">
+                <p className="text-[18px] leading-[36px] text-white md:text-[20px]">
                   {nav.title}
                 </p>
               </div>
             </div>
-            <div className="text-[16px] font-normal leading-7 text-secondery">
+            <div className="text-[14px] font-normal leading-7 text-secondery md:text-[16px]">
               {nav.content}
             </div>
           </div>

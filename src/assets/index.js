@@ -20,6 +20,7 @@ import minus from "./minus.png";
 import In from "./in.png";
 import facebok from "./Facebok.png";
 import tweter from "./tweter.png";
+import burgerMenu from "./burgerMenu.png";
 
 export {
   logo,
@@ -43,4 +44,5 @@ export {
   In,
   facebok,
   tweter,
+  burgerMenu,
 };

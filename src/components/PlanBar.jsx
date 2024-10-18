@@ -3,16 +3,16 @@ import { planLinks } from "../constants/planContainer";
 const PlanBar = () => {
   return (
     <>
-      <nav className="mr-auto mt-20 flex w-full max-w-[1480px] justify-between">
+      <nav className="mr-auto mt-20 flex w-full max-w-[1480px] flex-col items-center justify-between gap-4 md:flex-row md:gap-0">
         {planLinks.map((nav) => (
           <div
             key={nav.id}
-            className="flex h-[425px] w-[30%] flex-col justify-between rounded-md border-2 border-[#262626] bg-[#1F1F1F] p-8"
+            className="flex h-[425px] w-full max-w-[318px] flex-col justify-between rounded-md border-2 border-[#262626] bg-[#1F1F1F] p-8 md:max-w-[30%]"
           >
-            <div className="mt-10 text-2xl font-bold text-white">
+            <div className="md:[text-20px] mt-10 text-[18px] font-bold text-white">
               {nav.title}
             </div>
-            <div className="text-lg font-normal text-secondery">
+            <div className="text-14px font-normal text-secondery md:text-[16px]">
               {nav.content}
             </div>
             <div>

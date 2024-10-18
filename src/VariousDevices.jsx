@@ -4,15 +4,15 @@ import VariousBar from "./components/VariousBar";
 const VariousDevices = () => {
   return (
     <>
-      <div className="  bg-main ">
-        <div className="W-full  ">
-          <div className="flex items-center justify-center px-6 ">
-            <div className="xl:max-w-[1480px] w-full  flex flex-col mx-[50px]">
+      <div className="bg-main">
+        <div className="W-full">
+          <div className="flex items-center justify-center px-6">
+            <div className="mx-[50px] flex w-full flex-col xl:max-w-[1480px]">
               <div>
-                <p className="text-white font-bold text-[38px] ">
+                <p className="text-[20px] font-bold text-white ss:text-[32px] md:text-[38px]">
                   We Provide you streaming experience across various devices.
                 </p>
-                <p className="font-normal text-18px text-secondery w-[90%]">
+                <p className="text-14px w-[90%] font-normal text-secondery ss:text-[18px]">
                   With StreamVibe, you can enjoy your favorite movies and TV
                   shows anytime, anywhere. Our platform is designed to be
                   compatible with a wide range of devices, ensuring that you

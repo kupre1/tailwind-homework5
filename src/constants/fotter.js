@@ -64,9 +64,12 @@ export const footerLinks = [
     title: "Subscription",
     links: [{ name: "Plans " }, { name: "Features" }],
   },
+];
+
+export const socialMedia = [
   {
-    id: "6",
+    id: "1",
     title: "Connect With Us",
-    links: [{ name: facebok }, { name: tweter }, { name: In }],
+    links: [{ icon: facebok }, { icon: tweter }, { icon: In }],
   },
 ];
