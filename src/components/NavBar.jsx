@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { navLinks } from "../constants";
-import { logo, search, bell, burgerMenu } from "../assets";
+import { search, bell, burgerMenu } from "../assets";
+import { logo } from "../assets";
 
 const NavBar = () => {
   const [active, setActive] = useState("");
